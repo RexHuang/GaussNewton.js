@@ -1,7 +1,7 @@
 # GaussNewton.js
 
 
-GaussNewton base on numjs and matrixjs
+GaussNewton base on numjs(https://github.com/nicolaspanel/numjs) and matrixjs(https://github.com/Airblader/matrixjs)
 
 ## Sample
 
