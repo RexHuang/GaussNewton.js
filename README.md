@@ -5,7 +5,7 @@ GaussNewton base on numjs and matrixjs
 
 ## Sample
 
-### Test.html
+### test.html
 
 ```js
         // For this demo we're going to try and fit to the function  
