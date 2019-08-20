@@ -54,7 +54,7 @@ function GaussNewton(Func, inputs, outputs, params) {
   
 //        var delta = (Jf.T.multiply(Jf)).inv().multiply(Jf.T).multiply(r); 
         var Mat_Jf=Jf.flatten().tolist().toMatrix(Jf.shape[0],Jf.shape[1]);
-        var Mat_r=r.flatten().tolist().toMatrix(r.shape[0]*r.shape[1],1);
+        var Mat_r=r.flatten().tolist().toMatrix(r.shape[0],r.shape[1]);
         var Mat_delta = Mat_Jf.transpose().multiply(Mat_Jf).inverse().multiply(Mat_Jf.transpose()).multiply(Mat_r);
         delta=nj.array(Mat_delta.toArray()).reshape(params.shape[0],params.shape[1]);
 
